@@ -1,0 +1,20 @@
+<%= event_source('TeamProjection') %>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @team.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @team.age %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @team.gender %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>
