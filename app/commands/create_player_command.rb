@@ -1,4 +1,4 @@
-class AddPlayerCommand
+class CreatePlayerCommand
   include ActiveModel::Model
   include ActiveEvent::Command
   form_name 'Player'

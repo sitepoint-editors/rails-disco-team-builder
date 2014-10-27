@@ -1,4 +1,4 @@
-class AddedPlayerEvent
+class CreatedPlayerEvent
   include ActiveEvent::EventType
   attributes :id, :name, :position, :number, :team_id
   def values

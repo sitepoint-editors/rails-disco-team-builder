@@ -1,9 +1,9 @@
-class CreatePlayer < ActiveRecord::Migration
+class CreatePlayers < ActiveRecord::Migration
   def change
     create_table :players do |t|
       t.string :name
-      t.integer :number
       t.string :position
+      t.integer :number
       t.references :team, index: true
     end
   end

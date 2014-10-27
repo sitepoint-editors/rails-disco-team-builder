@@ -19,7 +19,7 @@ development:
     scheme: amqp
     host: 127.0.0.1
     port: 5672
-  event_exchange: events
+  event_exchange: team-builder-events
 
 test:
   domain_database:
